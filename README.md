@@ -45,10 +45,8 @@
 #### here you can see a screenshot of tools
 <br>
 <p align="center">
-<img width="49.0%" src="IMG_20210514_105255.jpg"/> 
-<img width="49.0%" src="IMG_20210514_105132.jpg"/>
-<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/IMG_20210514_110640.jpg"/>
-<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/IMG_20210514_110745.jpg"/>
+<img width="49.0%" src="src/IMG_20210516_230124.jpg"/> 
+<img width="49.0%" src="src/IMG_20210516_225436.jpg"/>
 </p>
 
 ###### By mishakorzhik: Report bug: misakorzik528@gmail.com

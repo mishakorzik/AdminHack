@@ -26,7 +26,7 @@
 ## Start Program Termux and Linux
 #### Enter a command to start AdminHack.
 
-* `bash AdminHack.py`
+* `bash AdminHack.sh`
 
 #### If there are problems then look down there will be if failed to download.
 ---

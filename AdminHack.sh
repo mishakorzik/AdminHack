@@ -1,4 +1,7 @@
-python2 src/AnimationLoad.py
+cd src
+python2 AnimationLoad.py
+cd 
+cd AdminHack
 
 # Colors
 r='\e[91m'

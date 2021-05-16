@@ -7,6 +7,8 @@ admin2/
 admin3/
 admin4/
 admin5/
+SuperAdmin/
+Boss/
 login1/
 12345/
 123456789/
@@ -45,6 +47,7 @@ siteadmin/login.php
 siteadmin/index.php
 siteadmin/login.html
 admin/account.html
+administrator/account.html
 admin/index.html
 admin/login.html
 admin/admin.html

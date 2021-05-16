@@ -1,3 +1,5 @@
+python2 src/AnimationLoad.py
+
 # Colors
 r='\e[91m'
 g='\e[92m'

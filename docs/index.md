@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+# AdminHack
+#### today we will hack the admin panel of the site.
 
-You can use the [editor on GitHub](https://github.com/mishakorzik/AdminHack/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
+---
+## Installing for termux
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* `pkg install git`
+* `git clone https://github.com/mishakorzik/AdminHack`
+* `cd AdminHack`
+* `bash setup.sh`
 
-### Markdown
+#### Everything is ready! Now we are waiting for everything to download!
+ * `succes`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
+## Installing for linux
 
-```markdown
-Syntax highlighted code block
+* `pkg install git`
+* `git clone https://github.com/mishakorzik/AdminHack`
+* `cd AdminHack`
+* `bash setup.sh`
 
-# Header 1
-## Header 2
-### Header 3
+---
+## Start Program Termux and Linux
+#### Enter a command to start AdminHack.
 
-- Bulleted
-- List
+* `bash AdminHack.sh`
 
-1. Numbered
-2. List
+#### If there are problems then look down there will be if failed to download.
+---
+## if failed to download
 
-**Bold** and _Italic_ and `Code` text
+* `cd AdminHack`
+* `cd src`
+* `bash ReloadInstall.sh`
 
-[Link](url) and ![Image](src)
-```
+#### Succesfull error fixed.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* `succes`
+---
+## Screenshot
 
-### Jekyll Themes
+#### here you can see a screenshot of AdminHack
+<br>
+<p align="center">
+<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/AdminHack/main/src/IMG_20210516_225436.jpg"/> 
+<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/AdminHack/main/src/IMG_20210516_230124.jpg"/>
+</p>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mishakorzik/AdminHack/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+###### By mishakorzhik: Report bug: misakorzik528@gmail.com
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

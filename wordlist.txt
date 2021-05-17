@@ -5,6 +5,7 @@ admin2/
 admin3/
 admin4/
 admin5/
+admin6/
 usuarios/
 usuario/
 administrator/
@@ -17,6 +18,8 @@ admin_area/
 panel-administracion/
 instadmin/
 memberadmin/
+console/
+moderatorconsole/
 administratorlogin/
 adm/
 admin/account.php
@@ -24,11 +27,13 @@ admin/index.php
 admin/login.php
 admin/admin.php
 admin/account.php
+admin/console.php
 admin_area/admin.php
 admin_area/login.php
 siteadmin/login.php
 siteadmin/index.php
 siteadmin/login.html
+admin/account.html
 admin/account.html
 admin/index.html
 admin/login.html
@@ -37,8 +42,11 @@ admin_area/index.php
 bb-admin/index.php
 bb-admin/login.php
 bb-admin/admin.php
+bb-admin/console.php
 admin/home.php
 admin_area/login.html
+adminchik/
+adminchik/login.html
 admin_area/index.html
 admin/controlpanel.php
 admin.php

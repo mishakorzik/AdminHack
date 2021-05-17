@@ -9,7 +9,7 @@ def animate():
     for c in itertools.cycle(['|', '/', '—', '\\']):
         if done:
             break
-        sys.stdout.write('\rWAIT A MOMENT ADMINHACK LOADING ' + c)
+        sys.stdout.write('\rWait a moment AdminHack loading ' + c)
         sys.stdout.flush()
         time.sleep(0.1)
     sys.stdout.write('')

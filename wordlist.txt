@@ -1,5 +1,6 @@
 admin/
 administrator/
+site-admin/
 consoleadministrator/
 administratorconsole/
 admin1/
@@ -9,6 +10,7 @@ admin4/
 admin5/
 admin6/
 admin7/
+admin8/
 user-admin/
 admin-user/
 usuarios/
@@ -34,6 +36,10 @@ admin/login.php
 admin/admin.php
 admin/account.php
 admin/console.php
+administrator/console.php
+admin/console.html
+administartor/console.html
+admin/admin.html
 admin_area/admin.php
 admin_area/login.php
 siteadmin/login.php
@@ -78,8 +84,6 @@ admin/admin_login.html
 admin_login.html
 panel-administracion/login.html
 admin/cp.php
-hack/
-login/hack.html
 cp.php
 administrator/index.php
 administrator/login.php

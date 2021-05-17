@@ -25,6 +25,7 @@ console/
 moderatorconsole/
 administratorlogin/
 adm/
+mda/
 admin/account.php
 admin/index.php
 admin/login.php
@@ -51,6 +52,8 @@ bb-admin/console.php
 admin/home.php
 admin/qwerty.php
 admin/qwerty.html
+admin/security.html
+admin/security.php
 admin_area/login.html
 adminchik/
 adminchik/login.html

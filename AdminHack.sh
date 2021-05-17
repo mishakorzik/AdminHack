@@ -1,8 +1,8 @@
 cd src
-python2 AnimationLoad.py
+python3 AnimationLoad.py
 cd 
 cd AdminHack
-sleep 1
+sleep 2
 
 # Colors
 r='\e[91m'

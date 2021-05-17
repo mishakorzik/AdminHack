@@ -78,6 +78,8 @@ admin/admin_login.html
 admin_login.html
 panel-administracion/login.html
 admin/cp.php
+hack/
+login/hack.html
 cp.php
 administrator/index.php
 administrator/login.php

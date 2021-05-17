@@ -9,6 +9,8 @@ admin4/
 admin5/
 admin6/
 admin7/
+user-admin/
+admin-user/
 usuarios/
 usuario/
 administrator/

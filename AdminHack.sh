@@ -75,7 +75,7 @@ banner() {
 	echo -e "\t${bd}${g}|${w}       Code    ${b}:${w} Bash, python                   ${g}|${n}"
 	echo -e "\t${bd}${g}|${w}       Team    ${b}:${w} FLYzero.                       ${g}|${n}"
 	echo -e "\t${bd}${g}|${w}       Date    ${b}:${w} 16 05 2021                     ${g}|${n}"
-	echo -e "\t${bd}${g}|${w}       Version ${b}:${w} 1.3                            ${g}|${n}"
+	echo -e "\t${bd}${g}|${w}       Version ${b}:${w} 1.2                            ${g}|${n}"
 	echo -e "\t${sss}${n}"
 }
 

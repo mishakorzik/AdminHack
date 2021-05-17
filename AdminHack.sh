@@ -2,6 +2,7 @@ cd src
 python2 AnimationLoad.py
 cd 
 cd AdminHack
+sleep 1
 
 # Colors
 r='\e[91m'

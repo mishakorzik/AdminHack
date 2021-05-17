@@ -11,6 +11,7 @@ admin5/
 admin6/
 admin7/
 admin8/
+admin9/
 user-admin/
 admin-user/
 usuarios/
@@ -22,6 +23,7 @@ adminarea/
 bb-admin/
 adminLogin/
 admin_area/
+super-admin/
 panel-administracion/
 instadmin/
 memberadmin/
@@ -36,6 +38,9 @@ admin/login.php
 admin/admin.php
 admin/account.php
 admin/console.php
+super/admin.php
+super/admin.html
+site/login.html
 administrator/console.php
 admin/console.html
 administartor/console.html
@@ -68,6 +73,7 @@ adminchik/login.html
 admin_area/index.html
 admin/controlpanel.php
 admin.php
+admin.html
 admincp/index.asp
 admincp/login.asp
 admincp/index.html
@@ -127,6 +133,8 @@ admin/controlpanel.html
 admin.html
 admin/cp.html
 cp.html
+admin/panel.php
+admin/panel.html
 adminpanel.php
 moderator.html
 administrator/index.html
@@ -135,6 +143,8 @@ user.html
 administrator/account.html
 administrator.html
 login.html
+qwerty/index.html
+qwerty/index.php
 modelsearch/login.html
 moderator/login.html
 adminarea/login.html
@@ -177,6 +187,8 @@ adm.php
 affiliate.php
 adm_auth.php
 memberadmin.php
+member/admin.php
+member/admin.html
 administratorlogin.php
 admin/
 administrator/
@@ -247,6 +259,7 @@ cp.asp
 administrator/account.asp
 administrator.asp
 acceso.asp
+unlock/login.html
 login.asp
 modelsearch/login.asp
 moderator.asp
@@ -288,6 +301,8 @@ adminpanel.asp
 webadmin.asp
 webadmin/index.asp
 webadmin/admin.asp
+webadmin/admin.php
+webadmin/admin.html
 webadmin/login.asp
 admin/admin_login.asp
 admin_login.asp

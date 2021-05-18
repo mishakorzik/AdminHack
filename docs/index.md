@@ -43,8 +43,6 @@
 * `succes`
 ---
 
-## Screenshot
-
 #### here you can see a screenshot of AdminHack
 <br>
 <p align="center">

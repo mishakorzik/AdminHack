@@ -1,7 +1,9 @@
-
+#### Hi for more information click on the view on github button
 
 #### today we will hack the admin panel of the site.
+
 ---
+
 ## Installing for termux
 
 * `pkg install git`
@@ -21,7 +23,9 @@
 * `bash setup.sh`
 
 ---
+
 ## Start Program Termux and Linux
+
 #### Enter a command to start AdminHack.
 
 * `bash AdminHack.sh`

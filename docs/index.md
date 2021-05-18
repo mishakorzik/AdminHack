@@ -1,4 +1,4 @@
-#### Hi for more information click on the view on github button
+### Hi for more information click on the view on github button
 
 #### today we will hack the admin panel of the site.
 
@@ -42,6 +42,8 @@
 
 * `succes`
 ---
+
+## Screenshot
 
 #### here you can see a screenshot of AdminHack
 <br>

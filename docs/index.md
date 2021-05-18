@@ -42,6 +42,7 @@
 
 * `succes`
 ---
+
 ## Screenshot
 
 #### here you can see a screenshot of AdminHack
@@ -51,5 +52,5 @@
 <img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/AdminHack/main/src/IMG_20210516_225436.jpg"/>
 </p>
 
-###### By mishakorzhik: Report bug: misakorzik528@gmail.com
+##### By mishakorzhik: Report bug: misakorzik528@gmail.com
 

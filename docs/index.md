@@ -1,4 +1,4 @@
-<p align="left">
+
 
 #### today we will hack the admin panel of the site.
 ---

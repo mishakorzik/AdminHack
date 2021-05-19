@@ -1,7 +1,6 @@
 # AdminHack
 #### today we will hack the admin panel of the site.
-<p align="center"><img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/examples/1620678554143.png"/> 
-<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/examples/IMG_20210510_233105.png"/>
+<p align="center"><img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/examples/1620678554143.png"/> <img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/examples/IMG_20210510_233105.png"/>
 
 ---
 ## Installing for termux
@@ -50,5 +49,5 @@
 </p>
 
 ###### By mishakorzhik: Report bug: misakorzik528@gmail.com
-
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)<br/><br/>
 

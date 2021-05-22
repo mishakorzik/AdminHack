@@ -4,6 +4,7 @@ echo Installing please wait...
 sleep 2
 pkg install python2
 pkg install python3
+pkg install python
 pkg install php
 sleep 1 
 echo ██████╗░░█████╗░███╗░░██╗███████╗

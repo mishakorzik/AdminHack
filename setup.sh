@@ -7,11 +7,6 @@ pkg install python3
 pkg install python
 pkg install php
 sleep 1 
-echo ██████╗░░█████╗░███╗░░██╗███████╗
-echo ██╔══██╗██╔══██╗████╗░██║██╔════╝
-echo ██║░░██║██║░░██║██╔██╗██║█████╗░░
-echo ██║░░██║██║░░██║██║╚████║██╔══╝░░
-echo ██████╔╝╚█████╔╝██║░╚███║███████╗
-echo ╚═════╝░░╚════╝░╚═╝░░╚══╝╚══════╝
-echo         Developer: mishakorzhik
-echo          Update on: 16 05 2021
+echo SuccesFull installed AdminHack
+echo Developer: mishakorzhik
+echo Update on: 16 05 2021

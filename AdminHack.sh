@@ -76,13 +76,13 @@ echo -e "\t${colors[rand1]} ███████║██║░░██║█�
 echo -e "\t${colors[rand1]} ██╔══██║██║░░██║██║╚██╔╝██║██║██║╚████║  ██╔══██║██╔══██║██║░░██╗██╔═██╗░"${n}
 echo -e "\t${colors[rand1]} ██║░░██║██████╔╝██║░╚═╝░██║██║██║░╚███║  ██║░░██║██║░░██║╚█████╔╝██║░╚██╗"${n}
 echo -e "\t${colors[rand1]} ╚═╝░░╚═╝╚═════╝░╚═╝░░░░░╚═╝╚═╝╚═╝░░╚══╝  ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝"${n}	
-        echo -e "\t${sss}${n}"
-	echo -e "\t${bd}${g}|${w}       Author  ${b}:${c} ${ul}Mishakorzhik${n}                    ${g}|${n}"
-	echo -e "\t${bd}${g}|${w}       Code    ${b}:${w} Bash, python                   ${g}|${n}"
-	echo -e "\t${bd}${g}|${w}       Team    ${b}:${w} FLYzero                        ${g}|${n}"
-	echo -e "\t${bd}${g}|${w}       Date    ${b}:${w} 16 05 2021                     ${g}|${n}"
-	echo -e "\t${bd}${g}|${w}       Version ${b}:${w} 1.4                            ${g}|${n}"
-	echo -e "\t${sss}${n}"
+        echo -e "      \t${sss}${n}"
+	echo -e "      \t${bd}${g}|${w}       Author  ${b}:${c} ${ul}Mishakorzhik${n}                    ${g}|${n}"
+	echo -e "      \t${bd}${g}|${w}       Code    ${b}:${w} Bash, python                   ${g}|${n}"
+	echo -e "      \t${bd}${g}|${w}       Team    ${b}:${w} FLYzero                        ${g}|${n}"
+	echo -e "      \t${bd}${g}|${w}       Date    ${b}:${w} 16 05 2021                     ${g}|${n}"
+	echo -e "      \t${bd}${g}|${w}       Version ${b}:${w} 1.4                            ${g}|${n}"
+	echo -e "      \t${sss}${n}"
 }
 
 scan() {
@@ -91,10 +91,10 @@ scan() {
 	scan_web=$( curl -s -o /dev/null ${web}/${path} -w %{http_code} )
 	if [[ $scan_web == 200 ]] || [[ $scan_web == 201 ]]; then
 		printf "\n"
-		echo -e "\t${g}[${w}+${g}] ${w}${web}/${path} ${y}~> ${g}${scan_web}${n}"
+		echo -e "      \t${g}[${w}+${g}] ${w}${web}/${path} ${y}~> ${g}${scan_web}${n}"
 		printf "\n"
 	else
-		echo -e "\t${g}[${r}-${g}] ${w}${web}/${path} ${b}~> ${r}${scan_web}${n}"
+		echo -e "      \t${g}[${r}-${g}] ${w}${web}/${path} ${b}~> ${r}${scan_web}${n}"
 	fi
 }
 
@@ -102,14 +102,14 @@ scan() {
 clear
 check
 banner
-echo -ne "\t${c}[${w}?${c}] ${w}Enter your website ${g}:${n} "
+echo -ne "      \t${c}[${w}?${c}] ${w}Enter your website ${g}:${n} "
 read web
 if [[ -z $web ]]; then
 	printf "\n"
 	echo -e "${b}[${r}!${b}]${w} Website tidak boleh kosong !!"
 	exit 0
 fi
-echo -ne "\t${c}[${w}?${c}] ${w}Enter your wordlist ${g}(${w}Default${g}:${w} wordlist.txt${g}) ${g}:${n} "
+echo -ne "      \t${c}[${w}?${c}] ${w}Enter your wordlist ${g}(${w}Default${g}:${w} wordlist.txt${g}) ${g}:${n} "
 read wordlist
 web=$( echo ${web} | cut -d '/' -f 3 )
 wordlist=${wordlist:-wordlist.txt}
@@ -118,12 +118,12 @@ if ! [[ -e $wordlist ]]; then
 	echo -e "${b}[${r}!${b}]${w} List not found !!"
 	exit 0
 fi
-echo -ne "\t${c}[${w}?${c}] ${w}Enter thread ${g}(${w}Default${g}:${w} 10${g}) ${g}:${n} "
+echo -ne "      \t${c}[${w}?${c}] ${w}Enter thread ${g}(${w}Default${g}:${w} 10${g}) ${g}:${n} "
 read thrd
 thread=${thrd:-${thread}}
 printf "\n"
-echo -e "\t${g}[${w}+${g}]${w} Total Wordlist ${g}:${w} $( wc -l $wordlist | cut -d ' ' -f 1 )"
-echo -ne "\t${g}[${w}+${g}]${w} Start Scanning${n}"
+echo -e "      \t${g}[${w}+${g}]${w} Total Wordlist ${g}:${w} $( wc -l $wordlist | cut -d ' ' -f 1 )"
+echo -ne "      \t${g}[${w}+${g}]${w} Start Scanning${n}"
 for((;T++<=10;)) { printf '.'; sleep 2; }
 printf "\n\n"
 for list in $( < $wordlist ); do

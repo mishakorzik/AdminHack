@@ -77,11 +77,10 @@ echo -e "\t${colors[rand1]} ██╔══██║██║░░██║█�
 echo -e "\t${colors[rand1]} ██║░░██║██████╔╝██║░╚═╝░██║██║██║░╚███║  ██║░░██║██║░░██║╚█████╔╝██║░╚██╗"${n}
 echo -e "\t${colors[rand1]} ╚═╝░░╚═╝╚═════╝░╚═╝░░░░░╚═╝╚═╝╚═╝░░╚══╝  ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝"${n}	
         echo -e "      \t${sss}${n}"
-	echo -e "      \t${bd}${g}|${w}       Author  ${b}:${c} ${ul}Mishakorzhik${n}                    ${g}|${n}"
-	echo -e "      \t${bd}${g}|${w}       Code    ${b}:${w} Bash, python                   ${g}|${n}"
-	echo -e "      \t${bd}${g}|${w}       Team    ${b}:${w} FLYzero                        ${g}|${n}"
-	echo -e "      \t${bd}${g}|${w}       Date    ${b}:${w} 16 05 2021                     ${g}|${n}"
-	echo -e "      \t${bd}${g}|${w}       Version ${b}:${w} 1.4                            ${g}|${n}"
+	echo -e "      \t${bd}${g}╭${w}       Author  ${b}:${c} ${ul}Mishakorzhik${n}                    ${g}${n}"
+	echo -e "      \t${bd}${g}│${w}       Code    ${b}:${w} Bash, python                   ${g}${n}"
+	echo -e "      \t${bd}${g}│${w}       Date    ${b}:${w} 16 05 2021                     ${g}${n}"
+	echo -e "      \t${bd}${g}╰${w}       Version ${b}:${w} 1.5.3                            ${g}${n}"
 	echo -e "      \t${sss}${n}"
 }
 
@@ -106,7 +105,7 @@ echo -ne "      \t${c}[${w}?${c}] ${w}Enter your website ${g}:${n} "
 read web
 if [[ -z $web ]]; then
 	printf "\n"
-	echo -e "${b}[${r}!${b}]${w} Website tidak boleh kosong !!"
+	echo -e "${b}[${r}!${b}]${w} Error! Invalid web site !!"
 	exit 0
 fi
 echo -ne "      \t${c}[${w}?${c}] ${w}Enter your wordlist ${g}(${w}Default${g}:${w} wordlist.txt${g}) ${g}:${n} "

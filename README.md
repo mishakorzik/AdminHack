@@ -26,7 +26,7 @@
 ---
 ## Installing for linux
 
-* `pkg install git`
+* `apt install git`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
 * `bash setup.sh`

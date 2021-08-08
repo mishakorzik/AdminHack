@@ -1,4 +1,3 @@
-cd src
 cd 
 cd AdminHack
 sleep 2

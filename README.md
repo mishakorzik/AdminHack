@@ -2,6 +2,16 @@
 #### today we will hack the admin panel of the site.
 <p align="center"><img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/examples/1620678554143.png"/> <img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/examples/IMG_20210510_233105.png"/>
 
+**A script to find admin login pages and EAR vulnerabilites.**
+
+#### Features
+- [x] Multi-threading on demand
+- [x] Big path list (5550 paths)
+- [x] Supports php, asp and html extensions
+- [x] Checks for potential EAR vulnerabilites
+- [x] Checks for robots.txt
+- [x] Support for custom patns
+
 ---
 ## Installing for termux
 

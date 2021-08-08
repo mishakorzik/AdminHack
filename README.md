@@ -6,11 +6,11 @@
 
 #### Features
 - [x] Multi-threading on demand
-- [x] Big path list (5550 paths)
+- [x] Big wordlist list (5550 patch)
 - [x] Supports php, asp and html extensions
-- [x] Checks for potential EAR vulnerabilites
-- [x] Checks for robots.txt
+- [x] Checks for potential EAR vulnerabilite
 - [x] Support for custom patns
+- [ ] Checks for robots.txt
 
 ---
 ## Installing for termux

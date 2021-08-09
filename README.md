@@ -35,9 +35,9 @@
 ## Installing for termux
 
 * `pkg install git`
-* `pkg install php`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
+* `bash setup.sh`
 
 #### Everything is ready! Now we are waiting for everything to download!
  * `succes`
@@ -45,8 +45,10 @@
 ---
 ## Installing for linux
 
+* `apt update && apt upgrade`
 * `apt install git`
 * `apt install php`
+* `apt install python`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
 

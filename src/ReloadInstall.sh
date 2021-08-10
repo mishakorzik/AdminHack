@@ -1,12 +1,9 @@
 clear
 sleep 1
 echo Reinstalling tool.
-rm -rf python2
 rm -rf ncurses-util
 sleep 1
 echo Reloading AdminHack
-pkg install python2
-python2 AnimationLoad.py
 sleep 1
 cd
 cd AdminHack

@@ -30,10 +30,10 @@ count=1
 
 ping -c 1 google.com > /dev/null 2>&1
 if [[ "$?" == 0 ]]; then
-echo -e "$b[$greenINFO$b]$default——[Internet Connection is Available]"
+echo -e "$green[INFO]——[Internet Connection is Available]"
 sleep 1.5
 else
-echo -e "$b[$redERROR$b]$default——[No Internet Connection]"
+echo -e "$red[ERROR]——[No Internet Connection]"
 echo ""
 exit
 exit
@@ -92,8 +92,8 @@ scan() {
 }
 
 # start
+sleep 0.8
 clear
-check
 banner
 echo -ne "      \t${c}[${w}>${c}] ${w}Enter your website ${g}:${n} "
 read web

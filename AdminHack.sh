@@ -34,10 +34,11 @@ echo -e "$green[INFO]——[Internet Connection is Available]"
 sleep 1.5
 else
 echo -e "$red[ERROR]——[No Internet Connection]"
-echo ""
 sleep 5
-echo -e "$red[EXIT]——[Press: 'CTRL + C' To Exit]"
-sleep 9999999
+echo -e "$red[HELP]——[Press: 'CTRL + C' To Exit]"
+sleep 999999
+sleep 999999
+sleep 999999
 exit
 exit
 fi

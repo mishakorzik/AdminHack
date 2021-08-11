@@ -17,31 +17,28 @@ dm='\e[2m'
 it='\e[3m'
 ul='\e[4m'
 rv='\e[7m'
+red='\e[1;31m'
+default='\e[0m'
+yellow='\e[0;33m'
+orange='\e[38;5;166m'
+green='\033[92m'
 
 colors=( "${bd}${r}" "${bd}${g}" "${bd}${y}" "${bd}${b}" "${bd}${p}" "${bd}${c}")
 
 thread=10
 count=1
 
-check(){
-	command -v tput > /dev/null 2>&1 ||
-		{
-			apt install ncurses-util ||
-				{
-					echo -e "Please check your connecting!";
-					exit;
-				}
-		}
-	command -v curl > /dev/null 2>&1 ||
-		{
+ping -c 1 google.com > /dev/null 2>&1
+if [[ "$?" == 0 ]]; then
+echo -e "$b[$greenINFO$b]$default——[Internet Connection is Available]"
+sleep 1.5
+else
+echo -e "$b[$redERROR$b]$default——[No Internet Connection]"
+echo ""
+exit
+exit
+fi
 
-			apt install curl > /dev/null 2>&1 ||
-				{
-					echo -e "Please check your connecting!";
-					exit;
-				}
-		}
-}
 exits() {
 	checkphp=$(ps aux | grep -o "curl" | head -n1)
 

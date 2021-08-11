@@ -37,6 +37,7 @@
 * `pkg update`
 * `pkg install git`
 * `pkg install php`
+* `pkg install python3`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
 
@@ -50,6 +51,7 @@
 * `apt upgrade`
 * `apt install git`
 * `apt install php`
+* `apt install python3`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
 

@@ -1,6 +1,6 @@
 cd 
 cd AdminHack
-sleep 2
+sleep 0.5
 
 # Colors
 r='\e[91m'
@@ -96,7 +96,8 @@ scan() {
 }
 
 # start
-sleep 0.8
+python3 src/CheckVersion.py
+sleep 1
 clear
 banner
 echo -ne "      \t${c}[${w}>${c}] ${w}Enter your website ${g}:${n} "

@@ -36,10 +36,9 @@
 * `pkg upgrade`
 * `pkg update`
 * `pkg install git`
-* `pkg install php`
-* `pkg install python3`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
+* `bash setup.sh`
 
 #### Everything is ready! Now we are waiting for everything to download!
  * `succes`
@@ -50,10 +49,9 @@
 * `apt update`
 * `apt upgrade`
 * `apt install git`
-* `apt install php`
-* `apt install python3`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
+* `bash setup.sh`
 
 ---
 ## Start Program Termux and Linux
@@ -62,16 +60,6 @@
 * `bash AdminHack.sh`
 
 #### If there are problems then look down there will be if failed to download.
----
-## if failed to download
-
-* `cd AdminHack`
-* `cd src`
-* `bash ReloadInstall.sh`
-
-#### Succesfull error fixed.
-
-* `succes`
 ---
 ## Screenshot
 

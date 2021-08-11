@@ -96,6 +96,7 @@ scan() {
 }
 
 # start
+echo ""
 python3 src/CheckVersion.py
 sleep 1
 clear

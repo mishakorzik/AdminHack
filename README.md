@@ -60,6 +60,36 @@
 * `bash AdminHack.sh`
 
 #### If there are problems then look down there will be if failed to download.
+
+<details id="missing-code-coverage">
+  <summary>Need Help</summary>
+
+#### Do you need help? Write me on: misakorzik528@gmail.com
+#### And I will consider your letter and problem!
+
+```bash
+Emails:
+ misakorzik528@gmail.com
+ miguardzecurity@gmail.com
+
+Developers:
+ mishakorzhik
+```
+
+## Bug?
+If the tool fails, follow these steps:
+
+1. Take a screenshot and see the error 
+   in detail
+
+2. Contact me through the following 
+   email: misakorzik528@gmail.com
+
+3. Submit the screenshot and explain 
+   your problem with that error
+
+</details>
+
 ---
 ## Screenshot
 

@@ -98,7 +98,7 @@ scan() {
 # start
 echo ""
 python3 src/CheckVersion.py
-sleep 1
+sleep 1.5
 clear
 banner
 echo -ne "      \t${c}[${w}>${c}] ${w}Enter your website ${g}:${n} "

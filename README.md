@@ -87,3 +87,7 @@
 
 ###### By mishakorzhik: Report bug: misakorzik528@gmail.com
 
+## Supporters
+[![Stargazers repo roster for @mishakorzik/AdminHack](https://reporoster.com/stars/mishakorzik/AdminHack)](https://github.com/mishakorzik/AdminHack/stargazers)
+[![Forkers repo roster for @mishakorzik/AdminHack](https://reporoster.com/forks/mishakorzik/AdminHack)](https://github.com/mishakorzik/AdminHack/members)
+

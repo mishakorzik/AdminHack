@@ -9,7 +9,7 @@ import os
 import sys
 
 print(G + '[+]' + C + ' Checking Dependencies And Packages...' + W)
-pkgs = ['python3', 'php', 'python', 'python2', 'git', 'pip']
+pkgs = ['python3', 'php', 'git',]
 inst = True
 for pkg in pkgs:
 	present = which(pkg)

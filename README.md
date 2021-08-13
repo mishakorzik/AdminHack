@@ -29,6 +29,7 @@
 - [x] Supports php, asp and html extensions
 - [x] Checks for potential EAR vulnerabilite
 - [x] Support for custom patns
+- [x] Web Crawling
 - [ ] Checks for robots.txt
 
 ---

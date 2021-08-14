@@ -900,6 +900,9 @@ adm/index.php
 admin/enter.php
 admin/event.php
 admin/form.php
+qwertyuiop/
+asdfghjkl/
+zxcvbnm/
 admin/gallery.php
 admin/headline.php
 admin/home.asp

@@ -98,8 +98,8 @@ If the tool fails, follow these steps:
 #### here you can see a screenshot of AdminHack
 <br>
 <p align="center">
-<img width="48.0%" src="src/IMG_20210809_124540.jpg"/> 
-<img width="50.0%" src="src/IMG_20210814_122526.jpg"/>
+<img width="53.0%" src="src/IMG_20210809_124540.jpg"/> 
+<img width="44.5%" src="src/IMG_20210814_122526.jpg"/>
 </p>
 
 ## Find Me 

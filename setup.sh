@@ -4,6 +4,7 @@ REDBG="$(printf '\033[41m')"  GREENBG="$(printf '\033[42m')"  ORANGEBG="$(printf
 MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
 DEFAULT_FG="$(printf '\033[39m')"  DEFAULT_BG="$(printf '\033[49m')"
 
+cd && AdminHack && bash src/Sevrite.sh
 clear
 echo "${BLUE}------------ ---------"
 echo "| ${RED} Select Option ${BLUE}     |"

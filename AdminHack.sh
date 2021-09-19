@@ -36,6 +36,7 @@ else
 echo -e "$red[ERROR]——[No Internet Connection]"
 sleep 5
 echo -e "$red[HELP]——[Press: 'CTRL + C' To Exit]"
+exit
 sleep 999999
 sleep 999999
 sleep 999999

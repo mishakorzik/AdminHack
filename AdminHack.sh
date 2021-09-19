@@ -118,7 +118,7 @@ if ! [[ -e $wordlist ]]; then
 	echo -e "${b}[${r}!${b}]${w} List not found !!"
 	exit 0
 fi
-echo -ne "      \t${c}[${w}>${c}] ${w}Enter thread ${g}(${w}Default${g}:${w} 10${g}) ${g}:${n} "
+echo -ne "      \t${c}[${w}>${c}] ${w}Enter thread ${g}(${w}Default${g}:${w} 12${g}) ${g}:${n} "
 read thrd
 thread=${thrd:-${thread}}
 printf "\n"

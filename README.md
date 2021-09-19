@@ -93,6 +93,11 @@ If the tool fails, follow these steps:
 </details>
 
 ---
+## Donate
+
+**If you want to donate, click on the button**
+<a href="https://www.donationalerts.com/r/misha_korzhik"><img title="Donate" src="https://img.shields.io/badge/Donate-AllHackingTools-yellow?style=for-the-badge&logo=github"></a>
+
 ## Screenshot
 
 #### here you can see a screenshot of AdminHack

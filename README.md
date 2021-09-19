@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="mailto:misakorzik528@gmail.com"><img title="Report bug" src="https://img.shields.io/badge/email-misakorzik528%40gmail.com-darkred?style=for-the-badge&logo=gmail"></a>
-<a href="https://github.com/mishakorzik/AdminHack"><img title="Version" src="https://img.shields.io/badge/Version-1.5.3-red?style=for-the-badge&logo="></a>
+<a href="https://github.com/mishakorzik/AdminHack"><img title="Version" src="https://img.shields.io/badge/Version-1.6.9-red?style=for-the-badge&logo="></a>
 <a href="https://github.com/mishakorzik/AdminHack/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-red?style=for-the-badge&logo=gnu"></a>
 <a href=""><img title="Python" src="https://img.shields.io/badge/Python-3.x-orange?style=for-the-badge&logo=python"></a>
 <a href="https://github.com/mishakorzik"><img title="Report" src="https://img.shields.io/badge/Copyring-2021-yellow?style=for-the-badge&logo=github"></a>

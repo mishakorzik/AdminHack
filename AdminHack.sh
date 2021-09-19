@@ -25,7 +25,7 @@ green='\033[92m'
 
 colors=( "${bd}${r}" "${bd}${g}" "${bd}${y}" "${bd}${b}" "${bd}${p}" "${bd}${c}")
 
-thread=10
+thread=15
 count=1
 
 ping -c 1 google.com > /dev/null 2>&1

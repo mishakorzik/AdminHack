@@ -78,7 +78,7 @@ echo -e "\t${colors[rand1]} |       || |_|   ||       ||   ||  _    | |       ||
 echo -e "\t${colors[rand1]} |   _   ||       || ||_|| ||   || | |   | |   _   ||   _   ||     |_ |    _  |"
 echo -e "\t${colors[rand1]} |__| |__||______| |_|   |_||___||_|  |__| |__| |__||__| |__||_______||___| |_|"
 	echo -e "                 \t${bd}${g}╭${w} Author  ${b}:${c} ${ul}Mishakorzhik${n}          ${g}${n}"
-	echo -e "                 \t${bd}${g}│${w} Version ${b}:${w} 1.6.4                          ${g}${n}"
+	echo -e "                 \t${bd}${g}│${w} Version ${b}:${w} 1.6.9                          ${g}${n}"
 	echo -e "                 \t${bd}${g}│${w} Code    ${b}:${w} Bash, python                   ${g}${n}"
 	echo -e "     \t${bd}${g} ╭──────────────┴${w} Date    ${b}:${w} 16 05 2021                 ${g}${n}"
 }

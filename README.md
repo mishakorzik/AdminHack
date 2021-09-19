@@ -25,7 +25,7 @@
 
 #### Features
 - [x] Multi-threading on demand
-- [x] Big wordlist list (9600 patch)
+- [x] Big wordlist list (11744 patch)
 - [x] Supports php, asp and html extensions
 - [x] Checks for potential EAR vulnerabilite
 - [x] Support for custom patns

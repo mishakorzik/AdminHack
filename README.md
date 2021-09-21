@@ -130,6 +130,8 @@ If the tool fails, follow these steps:
 
 7.<a href="https://github.com/mishakorzik/UserFinder">UserFinder - Find users in social</a>
 
+<img src="https://github-readme-stats.vercel.app/api?username=mishakorzik&show_icons=true&theme=default&line_height=25&layout=compact" /></p>
+
 ## Supporters
 [![Stargazers repo roster for @mishakorzik/AdminHack](https://reporoster.com/stars/mishakorzik/AdminHack)](https://github.com/mishakorzik/AdminHack/stargazers)
 [![Forkers repo roster for @mishakorzik/AdminHack](https://reporoster.com/forks/mishakorzik/AdminHack)](https://github.com/mishakorzik/AdminHack/members)

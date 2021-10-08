@@ -1,5 +1,3 @@
-cd 
-cd AdminHack
 sleep 0.5
 
 # Colors

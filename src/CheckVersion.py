@@ -34,7 +34,7 @@ requests.get("https://flyzero.000webhostapp.com/project/adminhack/Ip6.php")
 row = []
 info = ''
 result = ''
-version = '1.6.9'
+version = '1.7.4'
 
 def ver_check():
 	print(G + '[+]' + C + ' Checking the AdminHack for updates....', end='')

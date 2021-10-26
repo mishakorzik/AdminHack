@@ -26,21 +26,6 @@ colors=( "${bd}${r}" "${bd}${g}" "${bd}${y}" "${bd}${b}" "${bd}${p}" "${bd}${c}"
 thread=12
 count=1
 
-ping -c 1 google.com > /dev/null 2>&1
-if [[ "$?" == 0 ]]; then
-echo -e "$green[INFO]——[Internet Connection is Available]"
-sleep 1.5
-else
-echo -e "$red[ERROR]——[No Internet Connection]"
-sleep 5
-echo -e "$red[HELP]——[Press: 'CTRL + C' To Exit]"
-exit
-sleep 999999
-sleep 999999
-sleep 999999
-exit
-exit
-fi
 
 exits() {
 	checkphp=$(ps aux | grep -o "curl" | head -n1)

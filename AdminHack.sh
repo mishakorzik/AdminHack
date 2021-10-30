@@ -108,7 +108,7 @@ thread=${thrd:-${thread}}
 printf "\n"
 echo -e "      \t${g}[${w}+${g}]${w} Total Wordlist ${g}:${w} $( wc -l $wordlist | cut -d ' ' -f 1 )"
 echo -ne "      \t${g}[${w}+${g}]${w} Start Scanning${n}"
-for((;T++<=10;)) { printf '.'; sleep 1.5; }
+for((;T++<=10;)) { printf '.'; sleep 1; }
 printf "\n\n"
 for list in $( < $wordlist ); do
 	if [[ $(( $thread % $count )) = 0 && $count > 0 ]]; then

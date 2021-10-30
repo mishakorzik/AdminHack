@@ -5,6 +5,7 @@ W = '\033[0m'
 
 import os, sys, time, threading, requests, json, csv, argparse
 import subprocess as subp
+from shutil import which
 
 print(G + '[+]' + C + ' Checking Dependencies And Packages...' + W)
 pkgs = ['python3', 'php', 'git',]

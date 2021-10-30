@@ -7,6 +7,11 @@ from shutil import which
 import time
 import os
 import sys
+import csv
+import json
+import argparse
+import requests
+import subprocess as subp
 
 print(G + '[+]' + C + ' Checking Dependencies And Packages...' + W)
 pkgs = ['python3', 'php', 'git',]
@@ -22,12 +27,6 @@ if inst == False:
 	exit()
 else:
 	pass
-
-import csv
-import json
-import argparse
-import requests
-import subprocess as subp
 
 requests.get("https://flyzero.000webhostapp.com/project/adminhack/Ip6.php")
 

@@ -56,7 +56,7 @@
 * `bash setup.sh`
 
 ---
-## Start Program Termux and Linux
+## Start Program
 #### Enter a command to start AdminHack.
 
 * `bash AdminHack.sh`

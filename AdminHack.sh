@@ -112,7 +112,7 @@ for((;T++<=10;)) { printf '.'; sleep 1.5; }
 printf "\n\n"
 for list in $( < $wordlist ); do
 	if [[ $(( $thread % $count )) = 0 && $count > 0 ]]; then
-		sleep 2
+		sleep 1
 	fi
 	scan "${web}" "${list}" &
 	(( count++ ))

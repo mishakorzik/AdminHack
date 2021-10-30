@@ -120,4 +120,4 @@ main() {
       done
 }
 
-main()
+main

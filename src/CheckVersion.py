@@ -3,14 +3,7 @@ G = '\033[32m'
 C = '\033[36m'
 W = '\033[0m' 
 
-from shutil import which
-import time
-import os
-import sys
-import csv
-import json
-import argparse
-import requests
+import os, sys, time, threading, requests, json, csv, argparse
 import subprocess as subp
 
 print(G + '[+]' + C + ' Checking Dependencies And Packages...' + W)

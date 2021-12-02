@@ -35,6 +35,8 @@ then
 	pkg install php
 	pkg install toilet
 	pkg install python
+	python3 -m pip install requests
+	python3 -m pip install smtp
 	sleep 0.8
 	echo -n "${BLUE}[${GREEN}+${BLUE}] ${GREEN}Succesful Installed..!"
 	echo ""
@@ -48,6 +50,8 @@ else
 		apt install php
 		apt install toilet
 		apt install python
+		pip3 install requests
+		pip3 install smtp
 		sleep 1
 		echo -n "${BLUE}[${GREEN}+${BLUE}] ${GREEN}Succesful Installed..!"
 		echo ""
@@ -56,10 +60,13 @@ else
 		then
 			echo -n "${BLUE}[${RED}!${BLUE}] ${GREEN}Loading Installing In NetHunter..."
 			echo ""
+			sudo su
 			sudo apt-get upgrade && apt-get update
 			sudo apt-get install python3
 			sudo apt-get install php
 			sudo apt-get install python
+			sudo pip3 install requests
+			sudo pip3 install smtp
 			sleep 1
 			echo -n "${BLUE}[${GREEN}+${BLUE}] ${GREEN}Succesful Installed..!"
                 	echo ""

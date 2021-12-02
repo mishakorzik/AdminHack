@@ -23,7 +23,7 @@ green='\033[92m'
 
 colors=( "${bd}${r}" "${bd}${g}" "${bd}${y}" "${bd}${b}" "${bd}${p}" "${bd}${c}")
 
-thread=12
+thread=15
 count=1
 
 
@@ -102,7 +102,7 @@ if ! [[ -e $wordlist ]]; then
 	echo -e "${b}[${r}!${b}]${w} List not found !!"
 	exit 0
 fi
-echo -ne "      \t${c}[${w}>${c}] ${w}Enter thread ${g}(${w}Default${g}:${w} 12${g}) ${g}:${n} "
+echo -ne "      \t${c}[${w}>${c}] ${w}Enter thread ${g}(${w}Default${g}:${w} 15${g}) ${g}:${n} "
 read thrd
 thread=${thrd:-${thread}}
 printf "\n"

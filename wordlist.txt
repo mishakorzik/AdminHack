@@ -3,6 +3,7 @@
 /decay_sym/root/proc/self/cwd
 /wp-content/uploads/sym/root/proc/self/
 /home/000~ROOT~000/proc/self/cwd
+/wp-content/uploads
 /global/
 /home/
 /.a/contents_2
@@ -12,8 +13,8 @@
 /upload
 /uploads/source
 /berandal_sym/root
-/assets
 /assets/kcfinder
+/assets
 /s/
 /.a/
 /2010

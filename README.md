@@ -112,7 +112,7 @@ If the tool fails, follow these steps:
 [![Github](https://img.shields.io/badge/Twitter-MishaKorzhik-blue?style=for-the-badge&logo=twitter)](https://twitter.com/MishaKorzhik)
 [![Github](https://img.shields.io/badge/Discord-He1Zen-blue?style=for-the-badge&logo=discord)](https://discord.gg/ce2XKTJ7h9)
 
-###### By mishakorzhik: Report bug: misakorzik528@gmail.com
+###### By mishakorzhik: Report bug: developer.mishakorzhik@gmail.com
 
 ## I recommend watching
 

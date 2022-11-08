@@ -92,6 +92,9 @@ If the tool fails, follow these steps:
 </details>
 
 ---
+
+**Repository Views** ![Views](https://profile-counter.glitch.me/AdminHack/count.svg)
+
 ## Donate
 
 **If you want to donate, click on the button**

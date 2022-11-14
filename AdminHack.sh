@@ -81,7 +81,6 @@ scan() {
 
 # start
 echo ""
-python src/serv.py
 python3 src/CheckVersion.py
 sleep 1.5
 clear

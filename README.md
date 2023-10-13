@@ -30,7 +30,7 @@
 - [x] Checks for potential EAR vulnerabilite
 - [x] Support for custom patns
 - [x] Web Crawling
-- [ ] Checks for robots.txt
+- [x] Checks for robots.txt
 
 ---
 ## Installing for termux

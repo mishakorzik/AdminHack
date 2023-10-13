@@ -40,6 +40,7 @@
 * `pkg install git`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
+* `chmod +x *.sh`
 * `bash setup.sh`
 
 #### Everything is ready! Now we are waiting for everything to download!
@@ -53,6 +54,7 @@
 * `apt install git`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
+* `chmod +x *.sh`
 * `bash setup.sh`
 
 ---

@@ -30,7 +30,7 @@
 - [x] Checks for potential EAR vulnerabilite
 - [x] Support for custom patns
 - [x] Web Crawling
-- [ ] Checks for robots.txt
+- [x] Checks for robots.txt
 
 ---
 ## Installing for termux
@@ -40,6 +40,7 @@
 * `pkg install git`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
+* `chmod +x *.sh`
 * `bash setup.sh`
 
 #### Everything is ready! Now we are waiting for everything to download!
@@ -53,6 +54,7 @@
 * `apt install git`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
+* `chmod +x *.sh`
 * `bash setup.sh`
 
 ---

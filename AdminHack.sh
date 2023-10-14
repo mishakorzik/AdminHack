@@ -55,7 +55,7 @@ echo -e "\t${colors[rand1]} |       || |_|   ||       ||   ||  _    | |       ||
 echo -e "\t${colors[rand1]} |   _   ||       || ||_|| ||   || | |   | |   _   ||   _   ||     |_ |    _  |"
 echo -e "\t${colors[rand1]} |__| |__||______| |_|   |_||___||_|  |__| |__| |__||__| |__||_______||___| |_|"
 	echo -e "                 \t${bd}${g}╭${w} Author  ${b}:${c} ${ul}Mishakorzhik${n}          ${g}${n}"
-	echo -e "                 \t${bd}${g}│${w} Version ${b}:${w} 1.6.9                          ${g}${n}"
+	echo -e "                 \t${bd}${g}│${w} Version ${b}:${w} 1.7.2                          ${g}${n}"
 	echo -e "                 \t${bd}${g}│${w} Code    ${b}:${w} Bash, python                   ${g}${n}"
 	echo -e "     \t${bd}${g} ╭──────────────┴${w} Date    ${b}:${w} 16 05 2021                 ${g}${n}"
 }
@@ -66,13 +66,13 @@ check_robots() {
     response=$(curl -s -L "${site}/robots.txt")  # -L ensures curl follows redirects
     http_code=$(curl -s -o /dev/null -w "%{http_code}" -L "${site}/robots.txt")
     if [[ $http_code == "200" && ! -z "$response" && ! "$response" == *"</html>"* ]]; then
-        echo -e "\n      \t${g}[${w}+${g}]${w} Robots.txt found for ${site}:\n\n${response}${n}"
+        echo -e "      \t${g}[${w}+${g}]${w} Robots.txt found and saved for ${site}${n}"
+        wget -q "${site}/robots.txt"
     else
-        echo -e "\n      \t${g}[${r}-${g}]${w} No Robots.txt found for ${site}${n}"
+        echo -e "      \t${g}[${r}-${g}]${w} No Robots.txt found for ${site}${n}"
         echo ""
     fi
 }
-
 # Function to perform brute force
 scan() {
     web=${1}

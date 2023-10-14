@@ -81,11 +81,18 @@ scan() {
     if [[ $scan_web == 200 ]] || [[ $scan_web == 201 ]]; then
         printf "\n"
         echo -e "      \t${g}[${w}+${g}] ${w}${web}/${path} ${y}~> ${g}${scan_web}${n}"
+        if [[ ! -z $output_file ]]; then
+            echo "${web}/${path} ~> ${scan_web}" >> $output_file
+        fi
         printf "\n"
     else
         echo -e "      \t${g}[${r}-${g}] ${w}${web}/${path} ${b}~> ${r}${scan_web}${n}"
+        if [[ ! -z $output_file ]]; then
+            echo "${web}/${path} ~> ${scan_web}" >> $output_file
+        fi
     fi
 }
+
 
 # Start of the script
 python3 src/CheckVersion.py
@@ -120,6 +127,8 @@ thread=${thrd:-${thread}}
 
 printf "\n"
 echo -e "      \t${g}[${w}+${g}]${w} Total Wordlist ${g}:${w} $( wc -l $wordlist | cut -d ' ' -f 1 )"
+echo -ne "      \t${c}[${w}>${c}] ${w}Enter output file name (Leave blank to not save)${g}:${n} "
+read output_file
 echo -ne "      \t${g}[${w}+${g}]${w} Start Scanning${n}"
 for((;T++<=10;)) { printf '.'; sleep 1; }
 printf "\n\n"
@@ -128,13 +137,24 @@ printf "\n\n"
 check_robots "http://${web}"
 
 main() {
-    for list in $( < $wordlist ); do
-        if [[ $(( $thread % $count )) = 0 && $count > 0 ]]; then
-            sleep 2
+    pids=()  
+
+    for list in $(< $wordlist); do
+        if [[ ${#pids[@]} -ge $thread ]]; then
+            wait -n
+            pid_to_remove=$?
+            for index in "${!pids[@]}"; do
+                if [[ "${pids[$index]}" == "$pid_to_remove" ]]; then
+                    unset 'pids[$index]'
+                    break
+                fi
+            done
         fi
         scan "http://${web}" "${list}" &
-        (( count++ ))
+        pids+=($!)
     done
+
+    wait
 }
 
 main

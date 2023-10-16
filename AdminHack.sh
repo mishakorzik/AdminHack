@@ -152,7 +152,7 @@ check_robots "http://${web}"
 if [[ "$save_output" == "yes" ]]; then
     echo -e "      \t${g}[${w}+${g}]${w} Output will be saved in directory: ${web}"
 fi
-sleep 2
+sleep 3
 
 main() {
     pids=()

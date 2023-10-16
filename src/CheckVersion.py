@@ -25,7 +25,7 @@ else:
 row = []
 info = ''
 result = ''
-version = '1.7.44'
+version = '1.7.6'
 
 def ver_check():
 	print(G + '[+]' + C + ' Checking the AdminHack for updates....', end='')

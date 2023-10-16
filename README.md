@@ -31,6 +31,7 @@
 - [x] Support for custom patns
 - [x] Web Crawling
 - [x] Checks for robots.txt
+- [x] Saving results to file
 
 ---
 ## Installing for termux

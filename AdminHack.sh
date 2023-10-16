@@ -121,14 +121,14 @@ if ! [[ -e $wordlist ]]; then
     exit 0
 fi
 
-echo -ne "      \t${c}[${w}>${c}] ${w}Enter thread ${g}(${w}Default${g}:${w} 15${g}) ${g}:${n} "
+echo -ne "      \t${c}[${w}>${c}] ${w}Enter output file name (Leave blank to not save)${g}:${n} "
+read output_file
+echo -ne "      \t${c}[${w}>${c}] ${w}Enter threads count ${g}(${w}Default${g}:${w} 15${g}) ${g}:${n} "
 read thrd
 thread=${thrd:-${thread}}
 
 printf "\n"
 echo -e "      \t${g}[${w}+${g}]${w} Total Wordlist ${g}:${w} $( wc -l $wordlist | cut -d ' ' -f 1 )"
-echo -ne "      \t${c}[${w}>${c}] ${w}Enter output file name (Leave blank to not save)${g}:${n} "
-read output_file
 echo -ne "      \t${g}[${w}+${g}]${w} Start Scanning${n}"
 for((;T++<=10;)) { printf '.'; sleep 1; }
 printf "\n\n"

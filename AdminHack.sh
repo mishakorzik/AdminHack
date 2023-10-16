@@ -136,7 +136,7 @@ if ! [[ -e $wordlist ]]; then
     exit 0
 fi
 
-echo -ne "      \t${c}[${w}>${c}] ${w}Enter thread ${g}(${w}Default${g}:${w} 15${g}) ${g}:${n} "
+echo -ne "      \t${c}[${w}>${c}] ${w}Enter threads count ${g}(${w}Default${g}:${w} 15${g}) ${g}:${n} "
 read thrd
 thread=${thrd:-${thread}}
 

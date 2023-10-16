@@ -63,16 +63,20 @@ echo -e "\t${colors[rand1]} |__| |__||______| |_|   |_||___||_|  |__| |__| |__||
 # Function to check and print the content of robots.txt
 check_robots() {
     local site=$1
-    response=$(curl -s -L "${site}/robots.txt")  # -L ensures curl follows redirects
+    response=$(curl -s -L "${site}/robots.txt")
     http_code=$(curl -s -o /dev/null -w "%{http_code}" -L "${site}/robots.txt")
     if [[ $http_code == "200" && ! -z "$response" && ! "$response" == *"</html>"* ]]; then
-        echo -e "      \t${g}[${w}+${g}]${w} Robots.txt found and saved for ${site}${n}"
-        wget -q "${site}/robots.txt"
+        echo -e "      \t${g}[${w}+${g}]${w} Robots.txt found for ${site}${n}"
+        if [[ ! -z $output_file ]]; then
+            echo -e "      \t${g}[${w}+${g}]${w} Saving Robots.txt for ${site}${n}"
+            wget -q -O "${web}/robots.txt" "${site}/robots.txt"
+        fi
     else
         echo -e "      \t${g}[${r}-${g}]${w} No Robots.txt found for ${site}${n}"
         echo ""
     fi
 }
+
 # Function to perform brute force
 scan() {
     web=${1}
@@ -93,10 +97,10 @@ scan() {
     fi
 }
 
-
 # Start of the script
 python3 src/CheckVersion.py
 sleep 1.5
+
 
 banner
 echo -ne "      \t${c}[${w}>${c}] ${w}Enter your website ${g}:${n} "
@@ -121,14 +125,24 @@ if ! [[ -e $wordlist ]]; then
     exit 0
 fi
 
-echo -ne "      \t${c}[${w}>${c}] ${w}Enter output file name (Leave blank to not save)${g}:${n} "
-read output_file
-echo -ne "      \t${c}[${w}>${c}] ${w}Enter threads count ${g}(${w}Default${g}:${w} 15${g}) ${g}:${n} "
+echo -ne "      \t${c}[${w}>${c}] ${w}Enter thread ${g}(${w}Default${g}:${w} 15${g}) ${g}:${n} "
 read thrd
 thread=${thrd:-${thread}}
 
 printf "\n"
 echo -e "      \t${g}[${w}+${g}]${w} Total Wordlist ${g}:${w} $( wc -l $wordlist | cut -d ' ' -f 1 )"
+echo -ne "      \t${c}[${w}>${c}] ${w}Do you want to save the output? (yes/no) ${g}:${n} "
+read save_output
+
+if [[ "$save_output" == "yes" ]]; then
+    # Create directory with target website's name
+    mkdir -p "${web}"
+    output_file="${web}/output.txt"
+    echo -e "      \t${g}[${w}+${g}]${w} Output will be saved in directory: ${web}"
+else
+    output_file=""
+fi
+
 echo -ne "      \t${g}[${w}+${g}]${w} Start Scanning${n}"
 for((;T++<=10;)) { printf '.'; sleep 1; }
 printf "\n\n"

@@ -21,7 +21,7 @@
 
 **A script to find admin login pages and EAR vulnerabilites.**
 
-> Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/mishakorzik/AdminHack/blob/main/LICENSE).
+> I am not responsible for your actions.  By downloading software from this repository, you agree to the [license](https://github.com/mishakorzik/AdminHack/blob/main/LICENSE).
 
 #### Features
 - [x] Multi-threading on demand
@@ -41,7 +41,6 @@
 * `pkg install git`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
-* `chmod +x *.sh`
 * `bash setup.sh`
 
 #### Everything is ready! Now we are waiting for everything to download!
@@ -55,7 +54,6 @@
 * `apt install git`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
-* `chmod +x *.sh`
 * `bash setup.sh`
 
 ---

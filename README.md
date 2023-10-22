@@ -34,27 +34,116 @@
 - [x] Saving results to file
 
 ---
-## Installing for termux
-
+# Installing for termux
+<!--
 * `pkg upgrade`
 * `pkg update`
 * `pkg install git`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
 * `bash setup.sh`
+-->
 
+* Update the Termux packages
+  ```
+  pkg update
+  ```
+
+* Upgrade the Termux packages
+  ```
+  pkg upgrade
+  ```
+
+* Install git in termux
+  ```
+  pkg install git
+  ```
+
+* Clone the repository
+  ```
+  git clone https://github.com/mishakorzik/AdminHack
+  ```
+
+* Open the repository
+  ```
+  cd AdminHack
+  ```
+
+* Run the **setup.sh** file
+  ```
+  bash setup.sh
+  ```
+  
 #### Everything is ready! Now we are waiting for everything to download!
- * `succes`
+ * `Success`
 
 ---
-## Installing for linux
-
+# Installing for linux
+<!--
 * `apt update`
 * `apt upgrade`
 * `apt install git`
 * `git clone https://github.com/mishakorzik/AdminHack`
 * `cd AdminHack`
 * `bash setup.sh`
+-->
+
+## For Debian based distro : 
+* Update the packages : 
+  ```
+  sudo apt update
+  ```
+
+* Upgrade the packages : 
+  ```
+  sudo apt upgrade
+  ```
+
+* Install git :
+  ```
+  sudo apt install git -y
+  ```
+
+* Clone the repository
+  ```
+  git clone https://github.com/mishakorzik/AdminHack
+  ```
+
+* Open the repository
+  ```
+  cd AdminHack
+  ```
+
+* Run the **setup.sh** file
+  ```
+  bash setup.sh
+  ```
+
+## For Arch based distro : 
+* Upgrade and update the packages : 
+  ```
+  sudo pacman -Syu
+  ```
+
+* Install git :
+  ```
+  sudo pacman -Sy --noconfirm git -y
+  ```
+
+* Clone the repository
+  ```
+  git clone https://github.com/mishakorzik/AdminHack
+  ```
+
+* Open the repository
+  ```
+  cd AdminHack
+  ```
+
+* Run the **setup.sh** file
+  ```
+  bash setup.sh
+  ```
 
 ---
 ## Start Program

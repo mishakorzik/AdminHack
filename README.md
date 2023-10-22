@@ -34,7 +34,7 @@
 - [x] Saving results to file
 
 ---
-## Installing for termux
+### Installing for termux
 
 * `pkg upgrade`
 * `pkg update`
@@ -43,11 +43,8 @@
 * `cd AdminHack`
 * `bash setup.sh`
 
-#### Everything is ready! Now we are waiting for everything to download!
- * `success`
-
 ---
-## Installing for linux
+### Installing for linux
 
 * `apt update`
 * `apt upgrade`
@@ -56,7 +53,16 @@
 * `cd AdminHack`
 * `bash setup.sh`
 
----
+### Installing for arch linux
+* `sudo pacman -Syu`
+* `sudo pacman -Sy --noconfirm git -y`
+* `git clone https://github.com/mishakorzik/AdminHack`
+* `cd AdminHack`
+* `bash setup.sh`
+
+#### Everything is ready! Now we are waiting for everything to download!
+ * `success`
+
 ## Start Program
 #### Enter a command to start AdminHack.
 

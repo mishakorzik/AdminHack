@@ -44,7 +44,7 @@
 * `bash setup.sh`
 
 #### Everything is ready! Now we are waiting for everything to download!
- * `succes`
+ * `success`
 
 ---
 ## Installing for linux

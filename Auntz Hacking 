@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest versionCode="19" versionName="1.5.1" compileSdkVersion="33" compileSdkVersionCodename="13" package="com.thura.bigwin_twod_offline" platformBuildVersionCode="33" platformBuildVersionName="13" requiredSplitTypes="base__abi,base__density" splitTypes="">
+  <uses-sdk minSdkVersion="24" targetSdkVersion="33"/>
+  <uses-permission name="android.permission.INTERNET"/>
+  <uses-permission name="android.permission.BLUETOOTH"/>
+  <uses-permission name="android.permission.BLUETOOTH_ADMIN"/>
+  <uses-permission name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission name="android.permission.BLUETOOTH_SCAN"/>
+  <uses-permission name="android.permission.BLUETOOTH_ADVERTISE"/>
+  <uses-permission name="android.permission.BLUETOOTH_CONNECT"/>
+  <permission name="com.thura.bigwin_twod_offline.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" protectionLevel="0x2"/>
+  <uses-permission name="com.thura.bigwin_twod_offline.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+  <uses-permission name="android.permission.CAMERA"/>
+  <uses-feature name="android.hardware.camera" required="false"/>
+  <uses-feature name="android.hardware.camera.front" required="false"/>
+  <uses-feature name="android.hardware.camera.autofocus" required="false"/>
+  <uses-feature name="android.hardware.camera.flash" required="false"/>
+  <uses-feature name="android.hardware.screen.landscape" required="false"/>
+  <uses-feature name="android.hardware.wifi" required="false"/>
+  <application label="Big Win 2D POS" icon="res/mipmap-xxhdpi-v4/ic_launcher.png" name="android.app.Application" extractNativeLibs="false" appComponentFactory="androidx.core.app.CoreComponentFactory" isSplitRequired="true">
+    <activity theme="LaunchTheme" name="com.thura.bigwin_twod_offline.MainActivity" exported="true" launchMode="1" configChanges="0x40003fb4" windowSoftInputMode="0x10" hardwareAccelerated="true">
+      <meta-data name="io.flutter.embedding.android.NormalTheme" resource="NormalTheme"/>
+      <intent-filter>
+        <action name="android.intent.action.MAIN"/>
+        <category name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <meta-data name="flutterEmbedding" value="2"/>
+    <activity theme="Theme.NoTitleBar.Fullscreen" name="io.flutter.plugins.urllauncher.WebViewActivity" exported="false"/>
+    <provider name="net.nfet.flutter.printing.PrintFileProvider" exported="false" authorities="com.thura.bigwin_twod_offline.flutter.printing" grantUriPermissions="true">
+      <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="flutter_printing_file_paths"/>
+    </provider>
+    <uses-library name="androidx.window.extensions" required="false"/>
+    <uses-library name="androidx.window.sidecar" required="false"/>
+    <provider name="androidx.startup.InitializationProvider" exported="false" authorities="com.thura.bigwin_twod_offline.androidx-startup">
+      <meta-data name="androidx.emoji2.text.EmojiCompatInitializer" value="androidx.startup"/>
+      <meta-data name="androidx.lifecycle.ProcessLifecycleInitializer" value="androidx.startup"/>
+    </provider>
+    <activity theme="zxing_CaptureTheme" name="com.journeyapps.barcodescanner.CaptureActivity" clearTaskOnLaunch="true" stateNotNeeded="true" screenOrientation="6" windowSoftInputMode="0x3"/>
+    <meta-data name="com.android.vending.splits.required" value="true"/>
+    <meta-data name="com.android.stamp.source" value="https://play.google.com/store"/>
+    <meta-data name="com.android.stamp.type" value="STAMP_TYPE_DISTRIBUTION_APK"/>
+    <meta-data name="com.android.vending.splits" resource="splits0"/>
+    <meta-data name="com.android.vending.derived.apk.id" value="3"/>
+  </application>
+</manifest>
